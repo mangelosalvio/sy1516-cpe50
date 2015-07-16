@@ -27,6 +27,7 @@ public class TestContact {
                 display(contacts);
             } else if ( isAvailable(contacts, firstName, lastName) ) {
                 JOptionPane.showMessageDialog(null, "Contact already exists.");
+                display(contacts);
             }
         }
 
